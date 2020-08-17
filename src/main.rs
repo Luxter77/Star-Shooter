@@ -1,3 +1,5 @@
+#![allow(non_snake_case)] // Artistic Direction
+
 use amethyst::{
     core::transform::TransformBundle,
     prelude::*,

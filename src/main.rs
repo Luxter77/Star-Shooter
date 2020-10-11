@@ -39,4 +39,3 @@ fn main() -> amethyst::Result<()> {
 
     Ok(())
 }
-// test

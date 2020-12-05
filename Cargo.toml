@@ -5,8 +5,8 @@ authors = ["Depressed Prick <subject@instance-3.local>"]
 edition = "2018"
 
 [dependencies]
-amethyst = "0.15.0"
-laminar = "0.3"
+amethyst = "0.15.2"
+laminar = "0.4.0"
 
 [features]
 default = ["vulkan"]

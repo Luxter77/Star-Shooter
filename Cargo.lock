@@ -5,6 +5,7 @@ name = "Star-Shooter"
 version = "0.1.0"
 dependencies = [
  "amethyst",
+ "laminar",
 ]
 
 [[package]]

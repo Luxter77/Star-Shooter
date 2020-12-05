@@ -1,5 +1,3 @@
-#![allow(non_snake_case)] // Artistic Direction
-
 use amethyst::{
     core::transform::TransformBundle,
     prelude::*,
@@ -26,6 +24,7 @@ fn main() -> amethyst::Result<()> {
 
     let assets_dir = app_root.join("assets");
     let config_dir = app_root.join("config");
+
     let display_config_path = config_dir.join("display.ron");
 
     let game_data = GameDataBuilder::default().with_bundle(RenderingBundle::<DefaultBackend>::new()

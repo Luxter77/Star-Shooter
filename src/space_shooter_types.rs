@@ -1,5 +1,12 @@
+#![allow(dead_code)]
 pub struct Colour {
     r: u8, g: u8, b: u8, a: u8,
+}
+
+impl Colour {
+    fn change_colour_to() {
+        
+    }
 }
 
 pub struct ShipAestetics { // I don't know how to write that one word so now we are just rolling with this
@@ -12,7 +19,7 @@ pub struct ShipAestetics { // I don't know how to write that one word so now we 
 pub struct PhisicsState {
     X_position: i32, X_speed: i32, X_tilt: i64,
     Y_position: i32, Y_speed: i32, Y_tilt: i64,
-    Y_position: i32, Z_speed: i32, Z_titl: i64,
+    Z_position: i32, Z_speed: i32, Z_titl: i64,
 }
 
 pub struct GShipState {
@@ -29,4 +36,8 @@ pub struct GShipState {
 
 pub struct SnipperType {
     State: GShipState,
+}
+
+pub struct DOLOR {
+    
 }

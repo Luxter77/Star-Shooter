@@ -10,32 +10,40 @@ impl Colour {
 }
 
 pub struct ShipAestetics { // I don't know how to write that one word so now we are just rolling with this
-    C0: Colour,
-    C1: Colour,
-    C2: Colour,
-    Hat: u8,
+    c0: Colour,
+    c1: Colour,
+    c2: Colour,
+    hat: u8,
 }
 
 pub struct PhisicsState {
-    X_position: i32, X_speed: i32, X_tilt: i64,
-    Y_position: i32, Y_speed: i32, Y_tilt: i64,
-    Z_position: i32, Z_speed: i32, Z_titl: i64,
+    x_position: i32,
+    x_speed: i32,
+    x_tilt: i64,
+
+    y_position: i32,
+    y_speed: i32,
+    y_tilt: i64,
+
+    z_position: i32,
+    z_speed: i32,
+    z_titl: i64,
 }
 
 pub struct GShipState {
-    Ship_id: i8,
+    ship_id: i8, 
     
-    Hit_points: i32,
+    hit_points: i32,
     alive: bool,
     
-    Power: i32,
-    Power_mod: i32,
-
+    power: i32,
+    power_mod: i32,
+    
     phisics: PhisicsState,
 }
 
 pub struct SnipperType {
-    State: GShipState,
+    state: GShipState,
 }
 
 pub struct DOLOR {

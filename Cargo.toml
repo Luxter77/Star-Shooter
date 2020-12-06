@@ -1,5 +1,5 @@
 [package]
-name = "Star-Shooter"
+name = "star-shooter"
 version = "0.1.0"
 authors = ["Lucas Daniel Velazquez M <Luxter77@users.noreply.github.com>"]
 edition = "2018"

@@ -1,11 +1,11 @@
 # .github/workflows/release.yml
-name: build release
+name: "tagged-release"
 on:
-  release:
-    types: [created]
-
+  push:
+    tags:
+      - "v*"
 jobs:
-  release:
+  tagged-release:
     name: release ${{ matrix.target }}
     runs-on: ubuntu-latest
     strategy:
